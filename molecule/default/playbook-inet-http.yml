@@ -21,7 +21,7 @@
 
   roles:
     - role: geerlingguy.pip
-    - role: geerlingguy.supervisor
+    - role: ansible-role-supervisor
 
   tasks:
     - name: Validate Supervisor is responding to requests through the web UI.
