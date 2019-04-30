@@ -1,6 +1,6 @@
 # Ansible Role: Supervisor
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-supervisor.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-supervisor)
+[![Build Status](https://travis-ci.org/thegreenrobot/ansible-role-supervisor.svg?branch=master)](https://travis-ci.org/thegreenrobot/ansible-role-supervisor)
 
 An Ansible Role that installs [Supervisor](http://supervisord.org/) on Linux.
 
@@ -29,7 +29,7 @@ The path where Supervisor configuration should be stored.
       - name: 'foo'
         command: /bin/cat
         state: present
-    
+
       - name: 'apache'
         command: apache2ctl -DFOREGROUND
         state: present

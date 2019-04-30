@@ -71,7 +71,7 @@
 
   roles:
     - role: geerlingguy.pip
-    - role: geerlingguy.supervisor
+    - role: ansible-role-supervisor
 
   tasks:
     - name: Trigger handlers so supervisor runs everything it should run.
